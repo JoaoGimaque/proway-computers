@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.main-header {
+    padding: 30px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.main-header_title {
+    font-size: 80px;
+    letter-spacing: -1.5px;
+}
+
+.main-header_title_blue {
+    color: rgb(3, 24, 131);
+}
+
+.main-header_title_orange {
+    color: rgb(240, 80, 0);
+}
+
+.main-header_menu ul {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-header_menu a {
+    padding: 10px 10px;
+    color: rgb(87, 87, 87);
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.main-header_menu a:hover {
+    background-color: rgb(3, 24, 131);
+    color: #fff;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+.badge-carrinho {
+    background-color: rgb(4, 0, 63);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+.search-form {
+    height: 40px;
+    width: 580px;
+    display: flex;
+}
+
+.search-form input {
+    box-sizing: border-box;
+    height: 56px;
+    padding: 20px;
+    flex: 1;
+    background-color: rgb(198, 198, 198);
+    color: rgb(87, 87, 87);
+    border: none;
+    transition: all .3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form input:focus {
+    background-color: rgb(3, 24, 131);
+    outline: none;
+    color: #fff;
+}
+
+.search-form button {
+    width: 56px;
+    height: 56px;
+    background-color: rgb(3, 24, 131);
+    border: none;
+    color: #fff;
+    font-size: 22px;
+}
